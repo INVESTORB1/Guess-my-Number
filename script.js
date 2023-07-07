@@ -105,3 +105,12 @@ document.querySelector(".Reset").addEventListener("click", function () {
 });
 
 
+// A way to shorting my codes
+
+// const displayMessage = function(message){
+// 	document.querySelector('.message').textContent= message;
+// }
+
+// //When you need to call it , do this
+// //Call the function name
+// displayMessage('put here what you want the query to display';)
