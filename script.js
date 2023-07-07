@@ -36,8 +36,8 @@ document.querySelector(".check").addEventListener("click", function () {
 
 		if (score > highscore){
 			highscore = score;
-			document.querySelector('.highscore').textContent=highscore;
-		}else{
+			document.querySelector('.highscore').textContent=score;
+		}else if(highscore>score){
 			document.querySelector(".highscore").textContent = highscore;
 		}
 //Calling the clear input function that is created at the top of this code
