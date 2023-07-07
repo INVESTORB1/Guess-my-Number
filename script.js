@@ -53,6 +53,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
 		//When the guess is greater than the answer
 	} else if (guess > secretNumber) {
+		clearInput();
 		if (score > 1) {
 			document.querySelector(".message").textContent = "Greater than Answer";
 			score--;
