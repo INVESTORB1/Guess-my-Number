@@ -33,6 +33,13 @@ document.querySelector(".check").addEventListener("click", function () {
 		document.querySelector(".number").style.width = "15rem";
 
 		document.querySelector(".highscore").textContent = score;
+
+		if (score > highscore){
+			highscore = score;
+			document.querySelector('.highscore').textContent=highscore;
+		}else{
+			document.querySelector(".highscore").textContent = highscore;
+		}
 //Calling the clear input function that is created at the top of this code
 		
 // console.log
